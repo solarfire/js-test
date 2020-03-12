@@ -25,9 +25,6 @@ This will be run on a web server.
 ## Known issues
 - Multiple filters don't work at the same.  The last filter takes precedence.
 - Search by name works but considers this whole inner html of the potion.  With name being first, it works.
-- Search by price is not implemented.
-
-
 
 # Part 2
 

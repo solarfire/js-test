@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerPage {
+  padding-top: 0;
+  background-color: #0057a49e;
+  height: 10%;
+  color: white;
+  font-size: 50;
+}
+.navPage {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    background-color: #0057a445;
+    font-size: 13px;
+
+}
+.sectionPotion {float: left;width: 25%; float: left; }
+.sectionPotion header {
+    font-size: larger;
+}
+
+.tags {
+  display:none;
+}
+
+img {
+  border-radius: 10px;
+  transition: 5.3s;
+}

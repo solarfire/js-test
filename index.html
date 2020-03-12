@@ -1,0 +1,32 @@
+<head>
+  <meta charset="UTF-8">
+  <script src="scripts/potion.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/potion.css">
+</head>
+
+<body>
+  <header class="headerPage">Potions</header>
+  <nav class="navPage">
+      <input id="searchName" name="searchName" type="text" onkeyup="searchName();" placeholder="Search for potions...">
+      <input id="searchTags" name="searchTags" type="text" onkeyup="searchTags();" placeholder="Search by tags...">
+      <button type="button" onclick="sortByName();">Sort By Name</button>
+      <input id="sortNameDirection" type="hidden" value="1" />
+      <button type="button" onclick="sortByPrice();">Sort By Price</button>
+      <input id="sortPriceDirection" type="hidden" value="1" />
+      <label for="priceFrom">Price from :</label>
+      <input id="priceFrom" name="priceFrom" type="number">
+      <label for="priceTo">to :</label>
+      <input id="priceTo" name="priceTo" type="number">
+      <button name="priceSearch" type="button" onclick="searchPrice();">Search</button>
+      <label for="level">Required Level</label>
+      <select id="level" name="level" onchange="searchLevel();">
+        <option value="" selected>Select ...</option>
+      </select>
+</nav>
+  <article  class="sectionArticle" id="potion-list"></article>
+  <script>
+    (function() {
+      init();
+    })();
+  </script>
+</body>

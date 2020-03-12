@@ -15,12 +15,12 @@ This will be run on a web server.
 - Filtering on required level YES
 - Filtering on tags YES
 - (optional) Interesting UI YES?
-- (bonuspoints) Use semantic HTML YES
-- (bonuspoints) Serve the website through a nodejs application NO
-- (bonuspoints) Create an api for retrieval and filtering of data through the nodejs application NO
--DO NOT use any external libraries for the front-end, Vanilla javascript all the way YES
--Use modern build tools such as webpack/gulp NO
--Spend maximum 5 hours. YES
+- (bonuspoints) Use semantic HTML YES  
+- (bonuspoints) Serve the website through a nodejs application NO  
+- (bonuspoints) Create an api for retrieval and filtering of data through the nodejs application NO  
+- DO NOT use any external libraries for the front-end, Vanilla javascript all the way YES
+- Use modern build tools such as webpack/gulp NO
+- Spend maximum 5 hours. YES
 
 ## Known issues
 - Multiple filters don't work at the same.  The last filter takes precedence.

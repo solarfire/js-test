@@ -95,5 +95,6 @@ Answers to the following questions to be provided in pseudocode, i.e. no coding 
   1. concat the supplied string array.
   2. take the first and last string in the Array
   3. loop through the 2 strings, character at time, and compare for each other for equality.
-  4. Once the comparison fails, take that substring.
+  4. Once the comparison fails, take that substring and return it.
+  5. else if it fails on the first character comparison between the 2 strings, return "-1"
 ```
